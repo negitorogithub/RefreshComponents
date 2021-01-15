@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "es5",
+      "declaration":false,
+      "allowJs": false,
+      "skipLibCheck": true,
+      "strict": true,
+      "strictNullChecks": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "jsx": "react",
+      "sourceMap": true,
+      "outDir": "./public"
+    },
+    "exclude": ["node_modules"],
+    "lib": [
+      "es2016",
+      "dom",
+      "es5"
+  ]
+}
+  
