@@ -5,7 +5,7 @@
   "main": "./public/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack",
+    "build": "npx webpack serve --content-base public/ --watch-content-base",
     "start": "./node_modules/.bin/http-server"
   },
   "repository": {
