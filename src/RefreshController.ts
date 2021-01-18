@@ -25,6 +25,10 @@ export abstract class RefreshController<V, E> {
         return this._refreshState
     }
 
+    public getRefreshState() {
+        return this._refreshState
+    }
+
     public get value(): V | undefined {
         return this.refreshState.value
     }
